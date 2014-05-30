@@ -16,14 +16,6 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.fragment_main);
-
-		// win32 local
-		Toast.makeText(this, "this is win32 onCreated", Toast.LENGTH_SHORT)
-				.show();
-
-		// ubuntu local
-		Toast.makeText(this, "this is ubuntu onCreated is added",
-				Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
