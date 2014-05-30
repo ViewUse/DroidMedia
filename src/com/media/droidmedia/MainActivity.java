@@ -20,6 +20,10 @@ public class MainActivity extends Activity {
 		// win32 local
 		Toast.makeText(this, "this is win32 onCreated", Toast.LENGTH_SHORT)
 				.show();
+
+		// ubuntu local
+		Toast.makeText(this, "this is ubuntu onCreated is added",
+				Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
